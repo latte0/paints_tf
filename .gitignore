@@ -1,0 +1,8 @@
+ample/*
+logs/*
+test/*
+datasets/*
+checkpoint/*
+val/*
+sample/*
+*.pyc
