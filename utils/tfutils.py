@@ -7,7 +7,7 @@ import numpy as np
 from six.moves import xrange
 
 from ops import *
-from utils import *
+from utility import *
 
 def load_random_samples(model):
     data = np.random.choice(glob('./datasets/{}/val/*.jpg'.format(model.dataset_name)), model.batch_size)

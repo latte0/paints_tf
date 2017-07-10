@@ -7,8 +7,8 @@ import numpy as np
 from six.moves import xrange
 
 from ops import *
-from utils import *
-from tfutils import *
+from utils.utility import *
+from utils.tfutils import *
 
 
 
@@ -83,7 +83,7 @@ class pix2pix(object):
         self.D, self.D_logits = model.discriminator(self.real_AB, reuse=False)
         self.D_, self.D_logits_ = model.discriminator(self.fake_AB, reuse=True)
 
-        self.fake_B_sample = model.sampler(self.real_A)
+        self.fake_B_sample = model.generator(self.real_A, sampler=True)
 
         self.d_sum = tf.summary.histogram("d", self.D)
         self.d__sum = tf.summary.histogram("d_", self.D_)
