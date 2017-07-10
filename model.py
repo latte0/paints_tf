@@ -157,3 +157,5 @@ class pix2pixmodel(object):
 
 
             ret, _, _ = generator_impl()
+
+            return tf.nn.tanh(ret)
