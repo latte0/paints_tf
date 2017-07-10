@@ -25,4 +25,9 @@ And some experience show the result that the coefficent with DCGAN is abount 1.1
 
 This is the result. See below.
 
+# reference
+Some code of this project is on
+https://github.com/yenchenlin/pix2pix-tensorflow
 
+The paper, pix2pix 
+https://arxiv.org/pdf/1611.07004v1.pdf
