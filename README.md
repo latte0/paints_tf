@@ -14,9 +14,9 @@ deploy the web services
 # Result
 I've been experienced some loss function to get most effective result. 
 
-The exprience list is this 
-only L1 Distance 
-L1 Distance + DCGAN ( this is same pix2pix project) 
+The exprience list is this  
+only L1 Distance  
+L1 Distance + DCGAN ( this is same pix2pix project)  
 Wasserstein gan not added L1 Distance  
 use Selu , activation function, for DCGAN  
 
