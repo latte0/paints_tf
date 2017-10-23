@@ -23,7 +23,9 @@ use Selu , activation function, for DCGAN
 The most better result in the above list is lead by L1 Distance + DCGAN.
 And some experience show the result that the coefficent with DCGAN is abount 1.1.
 
-This is the result. See below.
+See below.
+https://qiita.com/latte_zero/items/2dd7bf55efd5a8d9a215
+
 
 # reference
 Some code of this project is on  
